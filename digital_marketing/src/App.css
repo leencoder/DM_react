@@ -1,0 +1,634 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* --------------------- global css --------------------- */
+.bg-blue {
+  background-color: #163966;
+}
+
+.text-orange {
+  color: #f6a910;
+}
+
+.text-blue {
+  color: #163966;
+}
+
+.subheading {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #163966;
+  margin-top: 10px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 30px 0;
+}
+
+.section-space {
+  padding: 80px 0;
+}
+
+/* -------------------header-------------------------- */
+
+header nav.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+  font-weight: 600;
+}
+
+header nav.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: rgb(251 177 56);
+  font-weight: 600;
+}
+
+header nav.navbar-light .navbar-nav .nav-item:active>.nav-link,
+header .navbar-light .navbar-nav .nav-link:active,
+header .navbar-light .navbar-nav .nav-link.show,
+header .navbar-light .navbar-nav .show>.nav-link {
+  color: rgb(251 177 56);
+  font-weight: 600;
+}
+
+header .navbar-light .navbar-nav .nav-link:focus,
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(251 177 56);
+  font-weight: 600;
+}
+
+header nav.navbar-light .nav-item .nav-link {
+  padding: 0;
+}
+
+header nav.navbar-light .nav-item {
+  margin: 0 10px;
+}
+
+header .dropdown-toggle::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: .255em;
+  background-image: url('./../public/images/dropdown-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle !important;
+  border: none !important;
+}
+
+header li.nav-item.active {
+  position: relative;
+  display: flex;
+}
+
+header li.nav-item:active {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------hero section-------------------------- */
+
+.hero-bg {
+  background: url('./../public/images/banner-bg.png') no-repeat center;
+  background-size: cover;
+  height: 530px;
+  position: relative;
+}
+
+.hero-bg img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.hero-section h1 {
+  line-height: 120%;
+  font-size: 45px;
+}
+
+.hero-section p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+
+/* -------------------about section-------------------------- */
+
+.about-box {
+  background: aliceblue;
+  padding: 60px 15px;
+  border-radius: 12px;
+  justify-items: center;
+  margin-bottom: 30px;
+  transition: 0.5s all ease;
+}
+
+.about-box:hover {
+  transform: translateY(-20px);
+  transition: 0.5s all ease;
+}
+
+.about-box.about-one {
+  background-color: #fceee3;
+}
+
+.about-box.about-two {
+  background-color: #e3f4ff;
+}
+
+.about-box.about-three {
+  background-color: #eefbe3;
+}
+
+.about-box.about-four {
+  background-color: #e4e7ff;
+}
+
+.about-box .image-wrapper {
+  background: #fff;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, .07);
+}
+
+.about-box.about-one,
+.about-box.about-three {
+  position: relative;
+  top: 40px;
+}
+
+.about-box p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about-counter p {
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+/* ---------------------who we are ------------------------------- */
+
+
+.who-we-are .who-we_shape {
+  position: absolute;
+  bottom: -42px;
+  right: 0;
+}
+
+/* --------------------- our services ------------------------------- */
+
+.our-services .service {
+  padding: 15px
+}
+
+.our-services .service .media {
+  padding: 28px 36px;
+}
+
+.our-services .shape-first {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.our-services .shape-second {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+}
+
+.our-services .container {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* --------------------- why choose ------------------------------- */
+
+.why-choose {
+  background-color: #fbfbfb;
+}
+
+.why-choose .why-choose-cards {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.why-choose .why-choose-cards p {
+  margin: 15px 0 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+/* --------------------- testimonial ------------------------------- */
+
+.testimonial {
+  background: url('./../public/images/testimonial-bg.png') no-repeat center;
+  background-size: cover;
+}
+
+/* --------------------- blog ------------------------------- */
+
+.blog .card-img-top {
+  padding: 20px 20px 0;
+}
+
+.blog .card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+}
+
+.blog .card-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #222222;
+}
+
+.blog .card-text {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+
+}
+
+.blog .card-wrapper {
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+
+.blog a:hover {
+  color: #163966;
+  text-decoration: underline;
+}
+
+/* ----------------------------footer section--------------------------- */
+
+.footer-section {
+  background: #163966 url('./../public/images/map.png') no-repeat top;
+  background-size: contain;
+}
+
+.footer-section .footer-contact div p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-section .footer-heading {
+  font-size: 18px;
+  color: #f7b127;
+}
+
+.footer-section .social-icons {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  column-gap: 4px;
+  margin: 16px 0;
+}
+
+.footer-section .footer-menu-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0 8px 0;
+  display: block;
+  font-size: 14px;
+}
+
+.footer-section hr {
+  border-color: #ffffff2b;
+}
+
+.footer-section .footer-copyright {
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+}
+
+
+@media screen and (min-width:991px) {
+  .who-we-are .left-side {
+    width: 60%;
+  }
+
+  header li.nav-item:active:before {
+    width: 45px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #fcb138;
+    bottom: 0;
+  }
+
+  header li.nav-item.active:before {
+    width: 45px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #fcb138;
+    bottom: 0;
+  }
+
+  header li.nav-item:active:before {
+    width: 45px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #fcb138;
+    bottom: 0;
+  }
+
+  header nav.navbar-light .navbar-nav .active>.nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(251 177 56);
+    padding-bottom: 30px;
+    font-weight: 600;
+  }
+
+  header nav.navbar-light .navbar-nav .nav-item:active>.nav-link,
+  header .navbar-light .navbar-nav .nav-link:active,
+  header .navbar-light .navbar-nav .nav-link.show,
+  header .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(251 177 56);
+    padding-bottom: 30px;
+    font-weight: 600;
+  }
+
+  .testimonial .testimonial-description {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:992px) {
+  header li.nav-item:active {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .our-services .service .media {
+    padding: 15px 15px;
+  }
+
+  .hero-section h1 {
+    line-height: 120%;
+    font-size: 34px;
+  }
+
+  .section-space {
+    padding: 40px 0;
+  }
+
+  .about-box {
+    padding: 30px 15px;
+  }
+
+  .heading {
+    font-size: 26px;
+  }
+
+  .paragraph {
+    margin: 15px 0;
+  }
+
+  .about-box p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .why-choose .why-choose-cards {
+    padding: 30px;
+  }
+
+  .why-choose .why-choose-cards p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .footer-section .footer-contact .phone-num {
+    display: flex;
+    gap: 0 15px;
+  }
+
+  .footer-section * {
+    text-align: center;
+  }
+
+  .footer-section .align-items-start.d-flex {
+    justify-content: center;
+  }
+
+  .footer-section .footer-menu-links a {
+    border-bottom: 1px dashed #cccccc2b;
+    padding: 15px 0;
+    margin: 0;
+    line-height: 100%;
+  }
+
+  .footer-section .footer-menu-links a:last-child {
+    border: revert-layer;
+  }
+
+  .footer-section .social-icons {
+    justify-content: center;
+  }
+
+  .why-choose .container .row .col-6.col-lg-3:nth-of-type(odd) {
+    padding: 0 8px 0px 16px;
+  }
+
+  .why-choose .container .row .col-6.col-lg-3:nth-of-type(even) {
+    padding: 0 16px 0 8px;
+  }
+
+  .who-we-are .left-side {
+    margin-top: 40px;
+  }
+
+  .about-counter p {
+    font-size: 16px;
+  }
+}
+
+
+/* =============about page======================== */
+
+.about-banner {
+  background: url('./../public/images/about-banner.png') no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.about-banner h1 {
+  font-size: 36px;
+}
+
+.about-para p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.our-values-section .our-values .media .media-body h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.our-values-section .our-values .media .media-body p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.our-values-section .our-values .media {
+  padding: 25px 20px;
+  border-radius: 10px;
+}
+
+.our-values-section .row {
+  row-gap: 30px;
+}
+
+.why-better .sub-head {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.why-better .why-better-cards {
+  padding: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.why-better .why-better-cards p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.why-better .why-better-cards .why-better-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.why-better .why-better-cards .why-better-img img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.about-contact {
+  background: url('./../public/images/about-contact.png') no-repeat center;
+  background-size: cover;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin: 0;
+  }
+
+  .dropdown-menu {
+    display: none;
+  }
+
+  .about-banner p {
+    font-size: 18px;
+  }
+
+  .why-better {
+    position: relative;
+  }
+
+  .why-better::before {
+    content: "";
+    background: url("./../public/images/better-shape.png") no-repeat;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-position: 0 75%;
+  }
+
+  /* .why-better .why-better-cards img {
+        height: 42px;
+        width: auto;
+    } */
+}
+
+@media screen and (max-width: 991px) {
+  .about-banner h1 {
+    font-size: 34px;
+  }
+
+  .about-contact .row .media .media-body h5 {
+    font-size: 18px;
+  }
+
+  .about-contact .row .media .media-body p {
+    font-size: 14px;
+    line-break: anywhere;
+  }
+}
+
+@media (hover: none) {
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: none;
+  }
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.opacity-25 {
+  opacity: 25%;
+}
