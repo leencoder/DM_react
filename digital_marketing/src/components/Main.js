@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import CountUpAnimation from './Count';
 import TestimonialSlider from './Testimonial';
 import ServicesGrid from './ServiceGrid';
+import AboutGrid from './AboutGrid';
+import WhyChooseGrid from './WhyChooseGrid';
+import BlogGrid from './BlogGrid';
 
 function Main() {
     return (
@@ -28,37 +31,7 @@ function Main() {
                 <section className="about-section section-space">
                     <div className="container">
                         <div className="row row-cols-lg-2 mx-0 align-items-center flex-column-reverse flex-lg-row">
-                            <div className="row row-cols-2 mx-0 mt-4 mt-lg-0">
-                                <div className="col">
-                                    <div className="about-box about-one">
-                                        <div className="image-wrapper"><img src="./images/web-design-icon.png" alt="" /></div>
-                                        <p>Web Design</p>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="about-box about-two">
-                                        <div className="image-wrapper"><img src='./images/web-development-icon.png' alt="" />
-                                        </div>
-                                        <p>Web Development</p>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="about-box about-three">
-                                        <div className="image-wrapper"><img src='./images/content-marketing-icon.png' alt="" />
-                                        </div>
-                                        <p>Content Marketing</p>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="about-box about-four">
-                                        <div className="image-wrapper"><img src='./images/mobile-app-development-icon.png'
-                                            alt="" />
-                                        </div>
-                                        <p>Mobile App Development</p>
-                                    </div>
-                                </div>
-
-                            </div>
+                            <AboutGrid />
                             <div className="ps-lg-5">
                                 <span className="subheading">About us</span>
                                 <h2 className="heading">Grow your Business with Our SEO Agency</h2>
@@ -144,69 +117,11 @@ function Main() {
                                 trends
                                 which helps us to achieve a higher ranking on SERPs of different search engines like Google,
                                 Bing
-                                etc. We always value our customers and we work hard to provide the excellent service col-12
-                                col-lg-6 they
+                                etc. We always value our customers and we work hard to provide the excellent service they
                                 deserve.
                             </p>
                         </div>
-                        <div className="row row-cols-lg-4 justify-content-center">
-                            <div className="pb-3 p-lg-3 col-6 col-lg-3">
-                                <div className="bg-white why-choose-cards">
-                                    <img src="./images/trust-icon.png" alt="" />
-                                    <p>5+ Years of Trust
-                                        & Experience</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-6 col-lg-3">
-                                <div className="bg-white why-choose-cards">
-                                    <img src="./images/trust-icon.png" alt="" />
-                                    <p>5+ Years of Trust
-                                        & Experience</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-6 col-lg-3">
-                                <div className="bg-white why-choose-cards">
-                                    <img src="./images/trust-icon.png" alt="" />
-                                    <p>5+ Years of Trust
-                                        & Experience</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-6 col-lg-3">
-                                <div className="bg-white why-choose-cards">
-                                    <img src="./images/trust-icon.png" alt="" />
-                                    <p>5+ Years of Trust
-                                        & Experience</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-6 col-lg-3">
-                                <div className="bg-white why-choose-cards">
-                                    <img src="./images/trust-icon.png" alt="" />
-                                    <p>5+ Years of Trust
-                                        & Experience</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-6 col-lg-3">
-                                <div className="bg-white why-choose-cards">
-                                    <img src="./images/trust-icon.png" alt="" />
-                                    <p>5+ Years of Trust
-                                        & Experience</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-6 col-lg-3">
-                                <div className="bg-white why-choose-cards">
-                                    <img src="./images/trust-icon.png" alt="" />
-                                    <p>5+ Years of Trust
-                                        & Experience</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-6 col-lg-3">
-                                <div className="bg-white why-choose-cards">
-                                    <img src="./images/trust-icon.png" alt="" />
-                                    <p>5+ Years of Trust
-                                        & Experience</p>
-                                </div>
-                            </div>
-                        </div>
+                        <WhyChooseGrid />
                     </div>
                 </section>
                 <TestimonialSlider />
@@ -215,53 +130,7 @@ function Main() {
                         <div className="text-center"><span className="subheading">Our Blog</span>
                             <h2 className="heading">Latest IT Industry Updates</h2>
                         </div>
-                        <div className="row row-cols-lg-3 my-4 my-lg-5">
-                            <div className="card-wrapper">
-                                <div className="card">
-                                    <img src="./images/blog-1.png" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <small className="text-muted d-flex"><img src="./images/calendar.png" alt=""
-                                            className="me-2" />Apr 9,
-                                            2021</small>
-                                        <h5 className="card-title mt-3">5 Secrets to Choosing a Great
-                                            Business Name Your Brand Identity</h5>
-                                        <p className="card-text">To make sure that you choose the best name for your brand identity,
-                                            you first need to have a strong grasp...</p>
-                                        <Link to="#" className="text-uppercase fw-bold text-blue">Read More</Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card-wrapper">
-                                <div className="card">
-                                    <img src="./images/blog-2.png" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <small className="text-muted d-flex"><img src="./images/calendar.png" alt=""
-                                            className="me-2" />Apr 9,
-                                            2021</small>
-                                        <h5 className="card-title mt-3">5 Secrets to Choosing a Great
-                                            Business Name Your Brand Identity</h5>
-                                        <p className="card-text">To make sure that you choose the best name for your brand identity,
-                                            you first need to have a strong grasp...</p>
-                                        <Link to="#" className="text-uppercase fw-bold text-blue">Read More</Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card-wrapper">
-                                <div className="card">
-                                    <img src="./images/blog-3.png" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <small className="text-muted d-flex"><img src="./images/calendar.png" alt=""
-                                            className="me-2" />Apr 9,
-                                            2021</small>
-                                        <h5 className="card-title mt-3">5 Secrets to Choosing a Great
-                                            Business Name Your Brand Identity</h5>
-                                        <p className="card-text">To make sure that you choose the best name for your brand identity,
-                                            you first need to have a strong grasp...</p>
-                                        <Link to="#" className="text-uppercase fw-bold text-blue">Read More</Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <BlogGrid />
                         <div className="text-center">
                             <Link to="#" className="text-blue">View More<i className="fa-solid fa-arrow-right-long ms-2"></i></Link>
                         </div>

@@ -1,0 +1,99 @@
+{
+    "aboutItems": [
+        {
+            "icon": "./images/web-design-icon.png",
+            "label": "Web Design",
+            "className": "about-one"
+        },
+        {
+            "icon": "./images/web-development-icon.png",
+            "label": "Web Development",
+            "className": "about-two"
+        },
+        {
+            "icon": "./images/content-marketing-icon.png",
+            "label": "Content Marketing",
+            "className": "about-three"
+        },
+        {
+            "icon": "./images/mobile-app-development-icon.png",
+            "label": "Mobile App Development",
+            "className": "about-four"
+        }
+    ],
+    "blogPosts": [
+        {
+            "image": "./images/blog-1.png",
+            "date": "Apr 9, 2021",
+            "title": "Choosing a Great Business Name Your Brand Identity",
+            "description": "Make sure that you choose the best name for your brand identity, you first need to have a strong grasp...",
+            "link": "#"
+        },
+        {
+            "image": "./images/blog-2.png",
+            "date": "Apr 9, 2021",
+            "title": "5 Secrets to make Business Name Your Brand Identity",
+            "description": "Choose the best name for your brand identity, you first need to have a strong grasp...",
+            "link": "#"
+        },
+        {
+            "image": "./images/blog-3.png",
+            "date": "Apr 9, 2021",
+            "title": "5 Secrets to Choosing a Great Business Name Your Brand Identity",
+            "description": "To make sure that you choose the best name for your brand identity, you first need to have a strong grasp...",
+            "link": "#"
+        }
+    ],
+    "services": [
+        {
+            "icon": "./images/web-design-icon.png",
+            "title": "Web Design",
+            "description": "We design incredible websites that gives ‘Wow Factor’ to grab your audience’s attention."
+        },
+        {
+            "icon": "./images/seo-icon.png",
+            "title": "Search Engine Optimization (SEO)",
+            "description": "Building awareness, driving more traffic and getting more customers."
+        },
+        {
+            "icon": "./images/web-development-icon.png",
+            "title": "Web Development",
+            "description": "We build websites that will not just impress you but also load in just a few seconds."
+        },
+        {
+            "icon": "./images/smm-icon.png",
+            "title": "Social Media Marketing (SMM)",
+            "description": "We build best-performing social campaigns to develop a dedicated customer fan base."
+        },
+        {
+            "icon": "./images/mobile-app-development-icon.png",
+            "title": "Mobile App Development",
+            "description": "We develop high-quality mobile solutions that cater to the goals and objectives of your business."
+        },
+        {
+            "icon": "./images/content-marketing-icon.png",
+            "title": "Content Marketing",
+            "description": "We boost your online business by creating and sharing useful content for your target audience."
+        },
+        {
+            "icon": "./images/cms-icon.png",
+            "title": "Content Management Solutions",
+            "description": "We develop high-quality CMS solutions catered to the goals and objectives of your business."
+        },
+        {
+            "icon": "./images/ppc.png",
+            "title": "PPC Advertising",
+            "description": "Our team covers every aspect needed to run a successful PPC Campaign."
+        },
+        {
+            "icon": "./images/ecommerce-icon.png",
+            "title": "eCommerce Solutions",
+            "description": "Take your business online with our robust and next-level Ecommerce Solutions."
+        },
+        {
+            "icon": "./images/orm-icon.png",
+            "title": "Online Reputation Management (ORM)",
+            "description": "We have result-oriented ORM strategies to rebuild your damaged reputation."
+        }
+    ]
+}
