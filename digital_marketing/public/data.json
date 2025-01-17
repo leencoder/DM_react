@@ -95,5 +95,115 @@
             "title": "Online Reputation Management (ORM)",
             "description": "We have result-oriented ORM strategies to rebuild your damaged reputation."
         }
+    ],
+    "values": [
+        {
+            "id": 1,
+            "icon": "./images/integrity-icon.png",
+            "title": "Integrity",
+            "description": "We design incredible websites that gives ‘Wow Factor’ to grab your audience’s attention."
+        },
+        {
+            "id": 2,
+            "icon": "./images/excellence-icon.png",
+            "title": "Excellence",
+            "description": "Building awareness, driving more traffic and get more customers."
+        },
+        {
+            "id": 3,
+            "icon": "./images/loyalty-icon.png",
+            "title": "Loyalty",
+            "description": "We built websites that will not just impress you but also loads in just a few seconds."
+        },
+        {
+            "id": 4,
+            "icon": "./images/transparency-icon.png",
+            "title": "Transparency",
+            "description": "We build best-performing social campaigns to develop a dedicated customer fan base."
+        },
+        {
+            "id": 5,
+            "icon": "./images/innovation-icon.png",
+            "title": "Innovation",
+            "description": "We develop high quality mobile solutions cater to the goals and objectives of your business."
+        },
+        {
+            "id": 6,
+            "icon": "./images/team-work-icon.png",
+            "title": "Team Work",
+            "description": "We boost your online business by creating and sharing useful content for your target audience."
+        },
+        {
+            "id": 7,
+            "icon": "./images/ethics-icon.png",
+            "title": "Ethics",
+            "description": "We develop high quality mobile solutions cater to the goals and objectives of your business."
+        }
+    ],
+    "cards": [
+        {
+            "id": 1,
+            "icon": "./images/5years-icon.png",
+            "description": "5+ Years of Experience"
+        },
+        {
+            "id": 2,
+            "icon": "./images/transparency-icon.png",
+            "description": "Complete Transparency"
+        },
+        {
+            "id": 3,
+            "icon": "./images/results-icon.png",
+            "description": "Assured Results"
+        },
+        {
+            "id": 4,
+            "icon": "./images/team-icon.png",
+            "description": "Experienced Team"
+        },
+        {
+            "id": 5,
+            "icon": "./images/cost-icon.png",
+            "description": "No Hidden Cost"
+        },
+        {
+            "id": 6,
+            "icon": "./images/delivery-icon.png",
+            "description": "Timely Delivery"
+        }
+    ],
+    "whyChooseCards": [
+        {
+            "icon": "./images/trust-icon.png",
+            "text": "5+ Years of Trust & Experience"
+        },
+        {
+            "icon": "./images/trust-icon.png",
+            "text": "5+ Trust & Experience"
+        },
+        {
+            "icon": "./images/trust-icon.png",
+            "text": "5+ Years Trust & Experience"
+        },
+        {
+            "icon": "./images/trust-icon.png",
+            "text": "5+ Years of Trust &"
+        },
+        {
+            "icon": "./images/trust-icon.png",
+            "text": "5+ Years of Trust Experience"
+        },
+        {
+            "icon": "./images/trust-icon.png",
+            "text": "5+ YearsTrust & Experience"
+        },
+        {
+            "icon": "./images/trust-icon.png",
+            "text": "5+ of Trust & Experience"
+        },
+        {
+            "icon": "./images/trust-icon.png",
+            "text": "5+ Years of Experience"
+        }
     ]
 }

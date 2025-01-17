@@ -1,5 +1,8 @@
 import './../App.css';
 import { Link } from "react-router-dom";
+import TestimonialSlider from './Testimonial';
+import ValuesGrid from './ValuesGrid';
+import WhyBetterGrid from './WhyBetterGrid';
 
 function AboutMain() {
     return (
@@ -60,7 +63,6 @@ function AboutMain() {
                                 <div className="right-side text-lg-right text-center"><img src="./images/mission-img.png"
                                     className="img-fluid" alt="" />
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -82,78 +84,7 @@ function AboutMain() {
                             <span className="text-white">Our values reflect what you should expect from us when working
                                 together</span>
                         </div>
-                        <div className="row row-cols-lg-4 mt-4">
-                            <div className="our-values col-md-6 col-lg-3 ">
-                                <div className="d-flex align-items-start p-4 bg-white h-100 flex-column align-items-center text-center">
-                                    <img src="./images/integrity-icon.png" className="mb-4" alt="..." />
-                                    <div className="media-body">
-                                        <h5 className="mt-0 text-uppercase">Integrity</h5>
-                                        <p className="m-0">We design incredible websites that gives ‘Wow Factor’ to grab your
-                                            audience’s
-                                            attention.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="our-values col-md-6 col-lg-3 ">
-                                <div className="d-flex align-items-start p-4 bg-white h-100 flex-column align-items-center text-center">
-                                    <img src="./images/excellence-icon.png" className="mb-4" alt="..." />
-                                    <div className="media-body">
-                                        <h5 className="mt-0 text-uppercase">Excellence</h5>
-                                        <p className="m-0">Building awareness, driving more traffic and get more customers.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="our-values col-md-6 col-lg-3 ">
-                                <div className="d-flex align-items-start p-4 bg-white h-100 flex-column align-items-center text-center">
-                                    <img src="./images/loyalty-icon.png" className="mb-4" alt="..." />
-                                    <div className="media-body">
-                                        <h5 className="mt-0 text-uppercase">Loyalty</h5>
-                                        <p className="m-0">We built websites that will not just impress you but also loads in just a
-                                            few seconds.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="our-values col-md-6 col-lg-3 ">
-                                <div className="d-flex align-items-start p-4 bg-white h-100 flex-column align-items-center text-center">
-                                    <img src="./images/transparency-icon.png" className="mb-4" alt="..." />
-                                    <div className="media-body">
-                                        <h5 className="mt-0 text-uppercase">Transparency</h5>
-                                        <p className="m-0">We build best-performing social campaigns to develop a dedicated customer
-                                            fan base.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="our-values col-md-6 col-lg-3 ">
-                                <div className="d-flex align-items-start p-4 bg-white h-100 flex-column align-items-center text-center">
-                                    <img src="./images/innovation-icon.png" className="mb-4" alt="..." />
-                                    <div className="media-body">
-                                        <h5 className="mt-0 text-uppercase">Innovation</h5>
-                                        <p className="m-0">We develop high quality mobile solutions cater to the goals and
-                                            objectives of your business.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="our-values col-md-6 col-lg-3 ">
-                                <div className="d-flex align-items-start p-4 bg-white h-100 flex-column align-items-center text-center">
-                                    <img src="./images/team-work-icon.png" className="mb-4" alt="..." />
-                                    <div className="media-body">
-                                        <h5 className="mt-0 text-uppercase">Team Work</h5>
-                                        <p className="m-0">We boost your online business by creating and sharing useful content for
-                                            your target audience.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="our-values col-md-6 col-lg-3 ">
-                                <div className="d-flex align-items-start p-4 bg-white h-100 flex-column align-items-center text-center">
-                                    <img src="./images/ethics-icon.png" className="mb-4" alt="..." />
-                                    <div className="media-body">
-                                        <h5 className="mt-0 text-uppercase">Ethics</h5>
-                                        <p className="m-0">We develop high quality mobile solutions cater to the goals and
-                                            objectives of your business.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <ValuesGrid />
                     </div>
                 </section>
                 <section className="section-space why-better">
@@ -187,48 +118,7 @@ function AboutMain() {
                                 </div>
                             </div>
                         </div>
-                        <div className="row row-cols-lg-3 justify-content-center">
-                            <div className="pb-3 p-lg-3 col-md-6 col-lg-4">
-                                <div className="bg-white d-flex align-items-center why-better-cards">
-                                    <div className="why-better-img"><img src="./images/5years-icon.png" alt="" />
-                                    </div>
-                                    <p className="mb-0">5+ Years of Experience</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-md-6 col-lg-4">
-                                <div className="bg-white d-flex align-items-center why-better-cards">
-                                    <div className="why-better-img"><img src="./images/transparency-icon.png" alt="" /></div>
-                                    <p className="mb-0">Complete Transparency</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-md-6 col-lg-4">
-                                <div className="bg-white d-flex align-items-center why-better-cards">
-                                    <div className="why-better-img"><img src="./images/results-icon.png" alt="" />
-                                    </div>
-                                    <p className="mb-0">Assured Results</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-md-6 col-lg-4">
-                                <div className="bg-white d-flex align-items-center why-better-cards">
-                                    <div className="why-better-img"><img src="./images/team-icon.png" alt="" />
-                                    </div>
-                                    <p className="mb-0">Experienced Team</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-md-6 col-lg-4">
-                                <div className="bg-white d-flex align-items-center why-better-cards">
-                                    <div className="why-better-img"><img src="./images/cost-icon.png" alt="" />
-                                    </div>
-                                    <p className="mb-0">No Hidden Cost</p>
-                                </div>
-                            </div>
-                            <div className="pb-3 p-lg-3 col-md-6 col-lg-4">
-                                <div className="bg-white d-flex align-items-center why-better-cards">
-                                    <div className="why-better-img"><img src="./images/delivery-icon.png" alt="" /></div>
-                                    <p className="mb-0">Timely Delivery</p>
-                                </div>
-                            </div>
-                        </div>
+                        <WhyBetterGrid />
                         <div>
                             <p className="mt-4">We offer comprehensive and tailor-made packages of all our services that suit
                                 businesses of all
@@ -237,32 +127,7 @@ function AboutMain() {
                         </div>
                     </div>
                 </section>
-                <section className="testimonial">
-                    <div className="container section-space">
-                        <div className="text-center">
-                            <span className="subheading text-white">Testimonials</span>
-                            <h2 className="heading text-white">What Our Clients Say</h2>
-                            <h3
-                                className="text-orange fw-bold d-flex align-items-center justify-content-center mt-3 mt-lg-5">
-                                5.0
-                                <img src="./images/5stars.png" alt="" className="ms-3" />
-                            </h3>
-                            <p className="paragraph text-white testimonial-description">"Today, I am very happy as I have completed
-                                my dream project with
-                                Engage
-                                Coders. I
-                                would highly recommend this company for your project. Engage Coders is very passionate about
-                                delivering high quality and creative work using innovative techniques and processes that make
-                                them
-                                unique from the rest. Each member of the team played an essential role and consistently met our
-                                expectations."</p>
-                            <div className="text-white mt-4"><img src="./images/robin-avatar.png" alt="" />
-                                <h4 className="mt-4">Robin Kelly</h4>
-                                <p className="text-orange">CEO</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <TestimonialSlider />
                 <section className="about-contact">
                     <div className="container section-space">
                         <div className="text-center">
