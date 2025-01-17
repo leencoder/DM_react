@@ -9,7 +9,7 @@ function Footer() {
             <div className="container ">
                 <div className="row row-cols-lg-4 mb-5">
                     <div className="col-12 col-lg-3">
-                        <div><img src="./images/white-logo.png" alt="" /></div>
+                        <div><img src="./images/logo-trans.png" alt="" /></div>
                         <div className="my-4 footer-contact">
                             <div className="align-items-start d-flex mb-3"><img src="./images/location.png" alt=""
                                 className="me-3 mt-1" />
