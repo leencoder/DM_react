@@ -1,5 +1,8 @@
 import './../App.css';
 import { Link } from "react-router-dom";
+import CountUpAnimation from './Count';
+import TestimonialSlider from './Testimonial';
+import ServicesGrid from './ServiceGrid';
 
 function Main() {
     return (
@@ -70,16 +73,25 @@ function Main() {
                                     by the successful delivery of 500+ projects over the last 5 years.</p>
                                 <div className="row row-cols-3 m-0 about-counter">
                                     <div className="col-4">
-                                        <h3 className="fw-bold text-orange">210+</h3>
-                                        <p>Active Clients</p>
+                                        <CountUpAnimation
+                                            initialValue={0}
+                                            targetValue={210}
+                                            text="Active Clients"
+                                        />
                                     </div>
                                     <div className="col-4">
-                                        <h3 className="fw-bold text-orange">530+</h3>
-                                        <p>Projects Done</p>
+                                        <CountUpAnimation
+                                            initialValue={0}
+                                            targetValue={530}
+                                            text="Projects Done"
+                                        />
                                     </div>
                                     <div className="col-4">
-                                        <h3 className="fw-bold text-orange">50+</h3>
-                                        <p>Team Members</p>
+                                        <CountUpAnimation
+                                            initialValue={0}
+                                            targetValue={50}
+                                            text="Team Members"
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -115,107 +127,7 @@ function Main() {
                         <div className="text-center"><span className="subheading text-white">Our Services</span>
                             <h2 className="heading text-white">Explore our Comprehensive suite of Services</h2>
                         </div>
-                        <div className="row row-cols-lg-2 mt-4">
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src='./images/web-design-icon.png' className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">Web Design</h5>
-                                        <p className="m-0">We design incredible websites that gives ‘Wow Factor’ to grab your
-                                            audience’s
-                                            attention.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src='./images/seo-icon.png' className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">Search Engine Optimization (SEO)</h5>
-                                        <p className="m-0">Building awareness, driving more traffic and get more customers.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src='./images/web-development-icon.png' className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">Web Development</h5>
-                                        <p className="m-0">We built websites that will not just impress you but also loads in just a
-                                            few seconds.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src='./images/smm-icon.png' className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">Social Media Marketing (SMM)</h5>
-                                        <p className="m-0">We build best-performing social campaigns to develop a dedicated customer
-                                            fan base.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src='./images/mobile-app-development-icon.png' className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">Mobile App Development</h5>
-                                        <p className="m-0">We develop high quality mobile solutions cater to the goals and
-                                            objectives of your business.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src='./images/content-marketing-icon.png' className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">Content Marketing</h5>
-                                        <p className="m-0">We boost your online business by creating and sharing useful content for
-                                            your target audience.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src="./images/cms-icon.png" className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">Content Management Solutions</h5>
-                                        <p className="m-0">We develop high quality mobile solutions cater to the goals and
-                                            objectives of your business.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src="./images/ppc.png" className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">PPC Advertising</h5>
-                                        <p className="m-0">Our team covers every aspect needed to run a successful PPC Campaign.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src="./images/ecommerce-icon.png" className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">eCommerce Solutions</h5>
-                                        <p className="m-0">Take your business online with our robust and next level Ecommerce
-                                            Solutions.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="service col-12 col-lg-6">
-                                <div className="d-flex align-items-start p-4 bg-white rounded h-100">
-                                    <img src="./images/orm-icon.png" className="me-3" alt="..." />
-                                    <div>
-                                        <h5 className="mt-0">Online Reputation Management (ORM)</h5>
-                                        <p className="m-0">We have result oriented ORM strategies to rebuild your damaged
-                                            reputation.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <ServicesGrid />
                     </div>
                     <img src="./images/services-yellow-shape.png" alt="" className="shape-first d-none d-lg-block" />
                     <img src="./images/services-shape-2.png" alt="" className="shape-second" />
@@ -297,30 +209,7 @@ function Main() {
                         </div>
                     </div>
                 </section>
-                <section className="testimonial">
-                    <div className="container section-space">
-                        <div className="text-center">
-                            <span className="subheading text-white">Testimonials</span>
-                            <h2 className="heading text-white">What Our Clients Say</h2>
-                            <h3
-                                className="text-orange fw-bold d-flex align-items-center justify-content-center mt-3 mt-lg-5">
-                                5.0
-                                <img src="./images/5stars.png" alt="" className="ms-3" />
-                            </h3>
-                            <p className="paragraph text-white testimonial-description">"Today, I am very happy as I have completed
-                                my dream project. I
-                                would highly recommend this company for your project. Team is very passionate about
-                                delivering high quality and creative work using innovative techniques and processes that make
-                                them
-                                unique from the rest. Each member of the team played an essential role and consistently met our
-                                expectations."</p>
-                            <div className="text-white mt-4"><img src="./images/robin-avatar.png" alt="" />
-                                <h4 className="mt-4">Robin Kelly</h4>
-                                <p className="text-orange">CEO</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <TestimonialSlider />
                 <section className="blog">
                     <div className="container section-space">
                         <div className="text-center"><span className="subheading">Our Blog</span>

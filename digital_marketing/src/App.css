@@ -382,7 +382,7 @@ header li.nav-item:active {
   header .navbar-light .navbar-nav .nav-link:active,
   header .navbar-light .navbar-nav .nav-link.show,
   header .navbar-light .navbar-nav .show>.nav-link {
-    color: rgb(251 177 56);
+    color: #fbb138;
     padding-bottom: 30px;
     font-weight: 600;
   }
@@ -631,4 +631,25 @@ header li.nav-item:active {
 
 .opacity-25 {
   opacity: 25%;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #fbb138;
+  transform: scale(1.2);
 }
